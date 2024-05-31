@@ -1,0 +1,74 @@
+.my-total-lead,.my-overview,.my-total-lead1,.my-overview2{
+    width: 479px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px 3px 3px 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    padding: 3px 3px 3px 3px;
+    margin: 18px 18px 18px 18px;
+    border-radius: 13px;
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lead-head{
+    width: 450px;
+    height: 10%;
+    /* margin: 0px 0px 0px 0px; */
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman'
+
+}
+.representation,.representation2{
+    padding: 7px 7px 7px 7px;
+    width: 80%;
+    height: 80%;
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+}
+.content-header{
+    width: 100%;
+    height: 60px;
+    background-color:azure;
+    margin-top: 13px;
+    border-radius: 8px 8px 8px 8px;
+    justify-content: baseline;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 20px;
+}
+.my-overview{
+    height: 400px;
+}
+.my-total-lead1{
+    width: 450px;
+}
+.my-overview2{
+    width: 650px;
+}
+.representation2{
+    height:200px ;
+}
+/* .tryyy{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+
+@media screen and (max-width:780px) {
+    .my-total-lead,.my-overview,.my-total-lead1,.my-overview2{
+       max-width: 479px;
+       overflow: hidden;
+        height: 300px;
+        padding: 0px;
+    }
+}
+
+/* ---for mobile  screen */
+@media screen and (max-width:468px) {
+    .my-total-lead,.my-overview,.my-total-lead1,.my-overview2{
+       max-width: 300px;
+        height: 200px;
+    }
+}

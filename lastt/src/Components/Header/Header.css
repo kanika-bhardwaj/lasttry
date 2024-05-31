@@ -1,0 +1,42 @@
+.createhead{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 100%;
+    height: 7vh;
+    position: relative;
+}
+.toggler{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+.sbtn{
+    margin-top: 5px;
+    margin-left: 7px;
+    height: 25px;
+    /* width: 100px; */
+    border: 2px 2px 2px 2px gray solid;
+    border-radius: 4px 4px 4px 4px;
+}
+/* .btn{
+    display: flex !important;
+} */
+.input-design{
+    margin-left: 7px;
+    margin-top: 7px;
+    border-radius: 8px;
+    /* border: none; */
+    /* width: ; */
+}
+.my-btn{
+    border: none;
+    background-color: #fff;
+}
+.specbtn{
+    border: none;
+}
+@media screen and (max-width:768px){
+    .ghostit{
+       margin-left: 0rem !important; 
+    }
+}
